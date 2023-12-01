@@ -16,7 +16,7 @@ $("body").css({width:"auto",
     justifyContent: "center",
     alignItems: "center",
 	flexDirection:"column",
-    backgroundImage: "url(image/fon.jpg)",
+    backgroundImage: "url(fon.jpg)",
     backgroundAttachment: "fixed",
     backgroundSize: "100%",
     fontSize: "25pt"});
