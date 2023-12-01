@@ -62,7 +62,7 @@ const answerWords = ["метелик", "крила", "туман", "сором'�
 const useStep =[1,2,3,4,5,6,7,8,9,10];
 
 $(text).html("<span>statistics</span>");
-$(step).text("0/10");
+$(step).text("0/11");
 let right = 0;
 let wrong = 0;
 let index;
@@ -73,9 +73,9 @@ let i=0;
 NewIndex();    
 
 function Check(){
-    $(step).text(`${++i}/10`);
+    $(step).text(`${++i}/11`);
     const answer = $(input).val().trim().toLowerCase();
-    if(i<=10){
+    if(i<=11){
     if(answer == translateItem){
         $(points).html(`<span style="color:rgb(41, 119, 15)">${++right}</span><span style="color:red">${wrong}</span>`);
     }else{
